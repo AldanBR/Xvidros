@@ -1,0 +1,37 @@
+@keyframes slide{
+    0%{background-image: url("../img/FRAME 1.png");
+    }
+
+    24%{background-image: url("../img/FRAME 1.png")
+    }
+
+    25%{background-image: url("../img/FRAME 2.png")
+    }
+
+    49%{background-image: url("../img/FRAME 2.png")
+    }
+
+    50%{background-image: url("../img/FRAME 3.png")
+    }
+
+    74%{background-image: url("../img/FRAME 3.png")
+    }
+
+    75%{background-image: url("../img/FRAME 4.png")
+    }
+
+    99%{background-image: url("../img/FRAME 4.png")
+    }
+
+}
+
+.Slider{
+    width: 65%;
+    height: 37rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+    border-radius: .625rem;
+    overflow: hidden;
+    animation: slide 30s ease 0s infinite normal none; 
+}
